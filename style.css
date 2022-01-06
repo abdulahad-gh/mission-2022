@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.parent-of-child{
+    display: flex;
+}
+.child-div{
+    width: 50%;
+}
+
+.text-orange-color{
+    color: orange;
+}
+/* section-first start from here */
+.left-content{
+    margin-top: 130px;
+}
+.right-content{
+    padding-left: 100px;
+}
+.vertical-line{   
+    width: 4px;
+    height: 109px;
+    border-left: 4px solid red;
+    position:absolute;
+    margin-top: 20px;
+}
+.heading-class {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-family: 'Source Serif 4', sans-serif;
+	height: 132px;
+	line-height: 73px;
+    position: relative;
+    padding-left: 15px;
+}
+p{
+    color: rgb(73, 64, 64);
+    font-size: 18px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    background-color: rgb(233, 20, 126);
+    transition: .3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: tomato;
+}
+.section-first img{
+    width: 400px;
+}
+/* section-first end from here */
+
+/* section-seccond start from here */
+.section-seccond h1, .section-five h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+.card{
+    padding: 10px 25px;
+    margin-right: 35px;
+    border-radius: 25px;
+}
+#card1{
+    background-color: rgba(0, 0, 255, 0.164)
+}
+#card2{
+    background-color: rgba(134, 241, 33, 0.164)
+}
+#card3{
+    background-color: rgba(223, 63, 151, 0.164)
+}
+.card img{
+    width: 140px;
+}
+/* section-seccond end from here */
+
+/* section-third start from here */
+.section-third{
+    margin-top: 80px;
+}
+.section-third h1{
+    font-size: 35px;
+}
+.first-child-div{
+    width: 35%;
+}
+.seccond-child-div{
+    width: 65%;
+    padding-left: 50px;
+}
+.section-third img{
+    width: 100%;
+}
+/* section-third end from here */
+
+/* section-four start from here */
+.section-four{
+    margin-top: 80px;
+}
+.section-four h1{
+    font-size: 35px;
+}
+.section-four img{
+    width: 100%;
+}
+.four-sec-first-child-div{
+    width: 65%;
+    padding-right: 100px;
+}
+/* section-four end from here */
+
+/* section-five start from here */
+.section-five {
+    background-color: rgba(219, 216, 216, 0.123);
+}
+.sec-five-left-side{
+    background-color: rgba(56, 12, 12, 0.363);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.sec-five-right-side{
+    margin-left: 20px; 
+}
+input{
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 15px;
+    padding: 3px 5px;
+}
+textarea{
+    width: 100%;
+}
+/* here added map from google-map-generator css start */
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 400px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 400px;
+}
+/* here added map from google-map-generator css end */
+
+/* section-five end from here */
+
+/* footer section start from here */
+footer{
+    margin-top: 80px;
+    padding: 5px 0;
+    background-color: black;
+    text-align: center;
+}
+footer h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+footer p{
+    color: rgb(209, 192, 192);
+}
+.foot-sp{
+    color: tomato;
+}
+/* footer section end from here */
+
